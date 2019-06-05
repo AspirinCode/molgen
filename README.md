@@ -4,7 +4,7 @@ in-silico generation of molecules using fragments
 # algorithm
 
 1. standardize input dataset using standardizer (pip package chemo-standardizer)
-2. fragment standardized dataset
+2. fragment standardized dataset;
    choose one fragmentation scheme from the litterature
    (rdkit has both BRICS and RECAP)
 3. assemble fragments until enough molecules have been generated
